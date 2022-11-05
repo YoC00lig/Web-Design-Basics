@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.menu-icon {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    background-color: hotpink;
+    z-index: 1;
+  
+}
+
+.menu-dropdown{
+    width: 25rem;
+    display: block;
+    margin: 0;
+    position: relative;
+    max-height: 0;
+    transition: max-height 0.3s;
+}
+
+input {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    position:relative;
+}
+
+.icon li {
+    display: block;
+    background-color: rgb(36, 168, 234);
+    position: relative;
+}
+
+.icon li:before, .icon li:after  {
+    content: '';
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+/* styling arrows in li elements */
+.icon li:hover:before, .icon li:hover:after {
+    left:0;
+    top:0;
+    position: absolute;
+    width: 10px;
+    opacity: 1;
+    border-top: 15px solid transparent;
+    border-left: 15px solid yellow;
+    border-bottom: 15px solid transparent;
+}
+
+.menu-dropdown .icon li:hover {
+    background: linear-gradient(to bottom, rgb(36, 168, 234) 0%,rgb(36, 168, 234) 50%,#91a9e9 51%,#a4b7ec 100%);
+    transition: all 0.3s;
+}
+
+/* */
+
+.m { 
+    position: relative;
+    height: 3rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    width: 25rem;
+    color: white;
+    padding: 0.5rem 3rem;
+}
+
+body {
+    background-color: yellow;
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+input[type="radio"]:checked + .menu-dropdown{
+    max-height: 50vh;
+}
+
+.arrow {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -5.5px;
+    right: 32px;
+    background-color: hotpink;
+    transform: rotate(45deg);
+    cursor: pointer;
+    z-index: 0;
+    display: block;
+}
+
+label:has(+ input:checked), input[type="radio"]:checked + .menu-dropdown ul .arrow {
+    background-color: brown;
+}
+
