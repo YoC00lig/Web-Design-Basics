@@ -1,0 +1,76 @@
+body {
+	font-family: Tahoma, "Lucida Grande", Arial, sans-serif;
+	font-size: 62.5%;
+}
+h1 {
+	font-size: 2.4em;
+}
+h2 {
+	font-size: 3em;
+	color: black;
+}
+h3 {
+	font-size: 1.4em;
+	color: #14556B;
+}
+p, ul, ol {
+	font-size: 1.2em;
+	line-height: 130%;
+}
+
+
+.main {
+	max-width: 90%;
+	margin: 2rem auto;
+	background-color: rgb(230, 242, 230);
+	padding: 2rem 0 ;
+}
+
+header {
+	background-color: #03455c;
+	border-top: 2px solid gold;
+	border-bottom: 2px solid gold;
+	padding: 0.5rem 2.5rem;
+}
+
+header h1 {
+	color: white;
+}
+
+.sidebar {
+	float: right;
+	max-width: 250px;
+	max-height: 400px;
+	margin: 1rem 1rem;
+	background-color: rgba(255, 208, 68, 0.5);
+	border: 1px solid orange;
+	border-top: 4px solid orange;
+	padding: 0.5rem 1.5rem;
+	margin: 1rem 0.5rem;
+}
+
+.sidebar h3 {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+.sidebar ul {
+	margin-top: 1rem;
+	margin-left: -1rem;
+}
+
+.sidebar ul li {
+	font-size: 20px;
+	line-height: 1rem;
+	letter-spacing: 0.2px;
+}
+
+.article {
+	margin: 1rem 2rem;
+}
+
+
+.article p {
+	font-size: 20px;
+}

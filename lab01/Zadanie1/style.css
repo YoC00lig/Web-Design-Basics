@@ -1,0 +1,175 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(4, 4, 89);
+    color: rgb(154, 171, 203);
+}
+
+html {
+    font-size: 16px;
+}
+
+.paragraphs p {
+    border-radius: 2rem;
+    color: white;
+    margin: 50px;
+}
+.paragraphs p:first-child{
+    background-color: rgb(189, 224, 255);
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.paragraphs p:nth-child(even) {
+    background-color: rgb(109, 109, 199);
+    font-size: 20px;
+    font-family: serif;
+    text-transform: capitalize;
+    line-height: 0.8;
+    text-align: justify;
+    padding: 15px 10px;
+}
+
+.paragraphs p:nth-child(3) {
+    background-color: rgb(69, 125, 125);
+    text-decoration: line-through;
+    text-decoration-color: rgb(4, 4, 84);
+    padding: 10px;
+    width: 1000px;
+}
+
+.table-wrapper {
+    width: 100%;
+}
+
+.table1 {
+    border: 4px;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    margin: 0 auto;
+}
+
+.col {
+    border: none;
+    width: 25%;
+}
+
+.row {
+    height: 4rem;
+}
+
+.table1 .row:first-child{
+    background-color: rgb(64, 125, 224);
+} 
+
+.table1 .row:nth-child(2n+2){
+    background-color: rgb(193, 220, 243);
+}
+
+.table1 .row:nth-child(2n+3) {
+    background-color: aliceblue;
+}
+
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+    margin: 100px 0px;
+}
+
+.table2 th {
+    background-color: rgb(62, 61, 61);
+}
+
+.table2 .row{
+    background-color: rgb(164, 162, 162);
+    height: 4rem;
+}
+
+.table2 .col{
+    border: 5px solid black;
+}
+
+.photo {
+    width: 30%;
+    height: auto;
+}
+#photo1 {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+#photo2 {
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+.pictures{
+    margin-bottom: 100px;
+}
+
+div p {
+    font-size: 25px;
+}
+
+section .images {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.images-wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.images-wrapper img {
+    margin: 10px auto;
+}
+
+.images-wrapper img:nth-child(2){
+    order: 3;
+}
+
+.countries {
+    margin-top: 150px;
+    text-align: center;
+    position:relative;
+    width:100%;
+    font-size: larger;
+    height: 300px;
+}
+
+
+.europe {
+    background-image: url(europa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 50%;
+    margin-bottom: 10px;
+    left: 50%;
+    height: 300px;
+}
+
+.asia {
+
+    background-image: url(china.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 50%;
+    margin-bottom: 10px;
+    left: 0%;
+    height: 300px;
+}
+
+.europe ul li, .asia ul li {
+    font-size: 30px;
+    list-style-type: none;
+}
+

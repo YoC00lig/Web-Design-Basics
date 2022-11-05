@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 10rem;
+}
+
+.first, .second, .third {
+    display: flex;
+    flex-direction: row;
+    height: 35%;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.item {
+    height: 20rem;
+    border: 2px solid black;
+}
+
+.item1 {
+    background-color: red;
+    width: 25%;
+}
+
+.item2{
+    background-color: rgb(153, 210, 210);
+    width: 75%;
+}
+
+.item3 {
+    background-color:yellow;
+    width: 100%;
+}

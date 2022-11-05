@@ -1,0 +1,50 @@
+body {
+    box-sizing: border-box;
+}
+
+
+
+#content {
+    width: 70rem;;
+    max-width: 90%;
+    margin: 4rem 0 0 4rem;
+    border: 0.5px solid black;
+    padding: 1rem;
+}
+
+header {
+    border: 1px dashed gray;
+    border-bottom: none;
+    color:rgb(63, 115, 98);
+    font-size: 2rem;
+}
+
+.intro {
+    border-top: 1px dashed gray;
+    color: black;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1rem;
+}
+
+.photo {
+    padding: 0.5rem;
+    width: 100%;
+    box-shadow: .5rem .5rem .5rem rgba(0, 0, 0, .4);
+}
+
+figure {
+    width: 30%;
+}
+
+figcaption {
+    margin-top: 1.5rem;
+    font-size: larger;
+}

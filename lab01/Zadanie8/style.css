@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: bisque;
+    color: black;
+    width: 400px;
+    margin: 20rem 30rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input {
+    display: block;
+    overflow: hidden;
+    height: 30px;
+    margin: 0 20%;
+}
+
+#city1 {
+    margin-bottom: 40px;
+}
+
+#submit {
+    margin-bottom: 40px;
+}

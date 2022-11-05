@@ -1,0 +1,21 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 2rem 3rem 0 3rem;
+}
+
+figcaption {
+    margin-top: -0.5rem;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding: 0.5rem;
+}
