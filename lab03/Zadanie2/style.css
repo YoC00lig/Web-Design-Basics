@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    position: absolute;
+    top: 50vh;
+    right: 50%;
+    transform: translate(50%,-50%);
+    box-shadow: 15px 15px 30px black;
+    border: 15px solid red;
+}
+
+button {
+    position: absolute;
+    bottom: 25vh;
+    right: 50%;
+    transform: translate(50%,-50%);
+    background-color: rgb(60, 61, 65);
+    width: 20rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.3s ease-out;
+    border-radius: 15px;
+    height: 4rem;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(60, 61, 65);
+}
