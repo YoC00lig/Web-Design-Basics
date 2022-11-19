@@ -1,0 +1,78 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(219, 232, 227);
+}
+
+section {
+    background-color: rgb(47, 151, 116);
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    width: 70vw;
+    height: 90vh;
+    box-shadow: 10px 10px 20px black;
+    overflow: scroll;
+}
+
+h1 {
+    color: rgb(232, 252, 245);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    width: 20vw;
+}
+
+.buttons {
+    position: absolute;
+    right: 0%;
+}
+
+.btn {
+    width: 12vw;
+    height: 4rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:white;
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px 5px 10px black;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.2, 1.2);
+    font-size: large;
+}
+
+#btn1 {
+    background-color: rgb(56, 161, 210);
+}
+#btn2 {
+    margin-left: 1.8rem;
+    background-color: red;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: rgb(232, 252, 245);
+    margin-right: 2.5rem;
+    box-shadow: 10px 10px 20px black;
+    height: 10rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    overflow: auto;
+    font-size: 1.4rem;
+}
+
+.cont {
+    margin: 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid rgb(232, 252, 245);
+    position: relative;
+}
+

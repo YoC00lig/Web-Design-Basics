@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Zadanie 5 zestaw 3</title>
+
+</head>
+<body>
+    <div class="box blue" id="blue">
+        <p>1</p>
+        <div class="box red" id="red">
+            <p>2</p>
+            <div class="box yellow" id="yellow" >
+                <p>3</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button id="propagation" onclick="changePropagation()">Start propagation </button>
+        <button id="reset" onclick="reset()">Reset </button>
+        <button id="change" onclick="changeOrder()"> Change order </button>
+    </div>
+
+    <div class="results">
+        <p class="score">Score:</p>
+        <p class="score" id="score">0</p>
+        <ul class="inf" id = "inf">
+            <li class="score info" id="info">Click Boxes to get points.</li>
+            <li class="score info" id="info">Click Boxes to get points.</li>
+            <li class="score info" id="info">Click Boxes to get points.</li>
+        </ul>
+    </div>
+</body>
+</html>
