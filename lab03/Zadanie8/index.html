@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+    <script src="https://kit.fontawesome.com/084128c0eb.js" crossorigin="anonymous"></script>
+    <title>Zadanie 8 zestaw 3</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <form>
+
+            <label for="new">
+                <span class="heading"> Your new password </span>
+                <div class="input-div">
+                    <input type="password" id="new" placeholder="Input new password">
+                    <i class="fa-regular fa-eye eye eye1"></i>
+                </div>
+            </label>
+
+            <label for="repeat">
+                <span class="heading"> Repeat password </span>
+                <div class="input-div">
+                    <input type="password" id="repeat" placeholder="Repeat new password">
+                    <i class="fa-regular fa-eye eye eye2"></i>
+                </div>
+            </label>
+
+        </form>
+
+        <div class="disagree">Passwords are different.</div>
+        <ul>
+            <li>
+                <figure class="icons">
+                    <i class="fa-sharp fa-solid fa-circle-xmark icon11"></i>
+                    <i class="fa-sharp fa-solid fa-circle-check icon12 hidden"></i>
+                </figure>
+                <span class="req">At least 8 characters</span>
+            </li>
+            <li>
+                <figure class="icons">
+                    <i class="fa-sharp fa-solid fa-circle-xmark icon21"></i>
+                    <i class="fa-sharp fa-solid fa-circle-check icon22 hidden"></i>
+                </figure>
+                <span class="req">At least one special character</span>
+            </li>
+            <li>
+                <figure class="icons">
+                    <i class="fa-sharp fa-solid fa-circle-xmark icon31"></i>
+                    <i class="fa-sharp fa-solid fa-circle-check icon32 hidden"></i>
+                </figure>
+                <span class="req">At least one capital letter</span>
+            </li>
+            <li>
+                <figure class="icons">
+                    <i class="fa-sharp fa-solid fa-circle-xmark icon41"></i>
+                    <i class="fa-sharp fa-solid fa-circle-check icon42 hidden"></i>
+                </figure>
+                <span class="req">At least one digit</span>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
