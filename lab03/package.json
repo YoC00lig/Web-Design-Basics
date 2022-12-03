@@ -1,0 +1,12 @@
+{
+  "name": "zadanie7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "cities": "json-server Zadanie7/cities.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
