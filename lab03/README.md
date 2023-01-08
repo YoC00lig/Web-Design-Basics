@@ -10,6 +10,8 @@
 <img src ="/lab03/gifs/zadanie5.gif">
 <h2> ♦️ Zadanie 6 </h2>
 <img src ="/lab03/gifs/zadanie6.gif">
+<h2> ♦️ Zadanie 7 </h2>
+<img src ="/lab03/gifs/zadanie7.gif">
 <h2> ♦️ Zadanie 8 </h2>
 <img src ="/lab03/gifs/zadanie8.gif">
 <h2> ♦️ Zadanie 9 </h2>
