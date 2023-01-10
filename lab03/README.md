@@ -1,3 +1,4 @@
+<p> Tasks descriptions can be found <a href="https://github.com/YoC00lig/Introduction-to-web-applications/blob/main/lab03/lab3.pdf" > here</a>. </p>
 <h2> ♦️ Zadanie 1 </h2>
 <img src ="/lab03/gifs/zadanie1.gif">
 <h2> ♦️ Zadanie 2 </h2>
