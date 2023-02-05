@@ -15,3 +15,5 @@
 <img src ="/lab02/gifs/zadanie10.gif">
 <h2> ♦️ Zadanie 11 </h2>
 <img src ="/lab02/gifs/zadanie11.gif">
+<h2> ♦️ Zadanie 12 </h2>
+<p> TODO </p>
