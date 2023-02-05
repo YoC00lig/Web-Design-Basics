@@ -20,4 +20,5 @@
 <h2> ♦️ Zadanie 10 </h2>
 <img src ="/lab03/gifs/zadanie10.gif">
 <h2> ♦️ Zadanie 12 </h2>
+<p> better description is <a href="https://github.com/YoC00lig/Zombie-Farm">here.</a></p>
 <img src ="/lab03/gifs/zadanie12.gif">
