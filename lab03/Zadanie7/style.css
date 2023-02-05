@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffdada;
+}
+
+.wrapper {
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    box-shadow: 2px 2px 4px black;
+    z-index: 1;
+    height: 70vh;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 50vw;
+    height: 10vh;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0.5rem;
+    background-color: white;
+   
+}
+
+.mod {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    z-index: 11;
+    background-color: #ffdada;
+    font-size: 2rem;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.overlay {
+    width:100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    z-index: 10;
+    background-color: rgb(26, 54, 79);
+    position: absolute;
+}
